@@ -12,9 +12,6 @@ public class App {
         System.out.println("Lista de Pontos de Iluminação:");
         MonitoramentoIluminacao.imprimirLista(pontos);
 
-        System.out.println("\nLeituras por Ponto de Iluminação:");
-        MonitoramentoIluminacao.imprimirLista(pontos);
-
         System.out.println("\nOrdenação por Tempo de Luz Acesa:");
         MonitoramentoIluminacao.ordenarPorTempo(pontos);
         MonitoramentoIluminacao.imprimirLista(pontos);
