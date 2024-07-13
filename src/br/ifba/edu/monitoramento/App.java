@@ -17,5 +17,7 @@ public class App {
         MonitoramentoIluminacao.imprimirLista(pontos);
 
         // Chame o método extra da classe MonitoramentoIluminacao aqui e imprima os resultados
+        System.out.println("\nFuncionalidade Extra (Permutações):");
+        MonitoramentoIluminacao.funcionalidadeExtra(pontos);
     }
 }
